@@ -1,0 +1,27 @@
+{
+  "name": "health-app-js",
+  "version": "1.0.0",
+  "description": "健康应用项目，为未来迁移至Vue 3和React框架做好技术准备",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "echo 'Starting development server...'",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "test": "echo 'Running tests...'"
+  },
+  "keywords": [
+    "health",
+    "app",
+    "javascript",
+    "frontend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0"
+  }
+}
